@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: Test for User login
+Description: Feature: Login functionality
+
+  Scenario: Successful login with valid credentials
+    Given I am on the login page
+    When I enter my username &quot;user123&quot; and password &quot;password123&quot;
+    And I click the login button
+    Then I should be redirected to the dashboard page
+    And I should see a welcome message
+
+  Scenario: Unsuccessful login with invalid credentials
+    Given I am on the login page
+    When I enter my username &quot;invalid_user&quot; and password &quot;invalid_password&quot;
+    And I click the login button
+    Then I should see an error message indicating invalid credentials</description>
+   <name>KBC-7 Test for User login</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10033&quot;:[],&quot;customfield_10046&quot;:[],&quot;customfield_10002&quot;:[],&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i00033:&quot;},&quot;status&quot;:{&quot;id&quot;:10021,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://mohit3021.atlassian.net/&quot;,&quot;statusCategory&quot;:{&quot;id&quot;:2,&quot;key&quot;:&quot;new&quot;,&quot;colorName&quot;:&quot;blue-gray&quot;,&quot;self&quot;:&quot;https://mohit3021.atlassian.net/rest/api/2/statuscategory/2&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;self&quot;:&quot;https://mohit3021.atlassian.net/rest/api/2/status/10021&quot;,&quot;name&quot;:&quot;Backlog&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://mohit3021.atlassian.net/rest/api/2/project/10003&quot;,&quot;key&quot;:&quot;KBC&quot;,&quot;id&quot;:10003,&quot;name&quot;:&quot;Katalon BDD CompanyMP&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;Test for User login&quot;,&quot;description&quot;:&quot;Feature: Login functionality\n\n  Scenario: Successful login with valid credentials\n    Given I am on the login page\n    When I enter my username \&quot;user123\&quot; and password \&quot;password123\&quot;\n    And I click the login button\n    Then I should be redirected to the dashboard page\n    And I should see a welcome message\n\n  Scenario: Unsuccessful login with invalid credentials\n    Given I am on the login page\n    When I enter my username \&quot;invalid_user\&quot; and password \&quot;invalid_password\&quot;\n    And I click the login button\n    Then I should see an error message indicating invalid credentials&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;mohit3021@gmail.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;mohit kumar&quot;,&quot;accountId&quot;:&quot;557058:2da16742-a0ec-4ecd-9ea6-2b3b3c5c0942&quot;,&quot;self&quot;:&quot;https://mohit3021.atlassian.net/rest/api/2/user?accountId\u003d557058%3A2da16742-a0ec-4ecd-9ea6-2b3b3c5c0942&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://mohit3021.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://mohit3021.atlassian.net/rest/api/2/issue/KBC-7/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://mohit3021.atlassian.net/rest/api/2/issue/10023&quot;,&quot;key&quot;:&quot;KBC-7&quot;,&quot;id&quot;:10023}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4bc85849-4664-441b-92eb-141597b893dc</testCaseGuid>
+</TestCaseEntity>

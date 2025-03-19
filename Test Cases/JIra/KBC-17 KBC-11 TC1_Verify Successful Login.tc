@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: KBC-11 TC1_Verify Successful Login
+Description: Test Steps:&#xd;
+1. openBrowser(&quot;&quot;)&#xd;
+2. navigateToUrl(&quot;https://katalon-demo-cura.herokuapp.com/&quot;)&#xd;
+3. click(findTestObject(&quot;Object Repository/OR Web/Page_CURA Healthcare Service/a_btn-make-appointment&quot;))&#xd;
+4. title = getWindowTitle()&#xd;
+5. verifyMatch(title, &quot;Mohit&quot;, false)&#xd;
+&#xd;
+Error message: Test Cases/JIRA/KBC-11 TC1_Verify Successful Login FAILED.&#xd;
+Reason:&#xd;
+com.kms.katalon.core.exception.StepFailedException: Actual text 'CURA Healthcare Service' and expected text 'Mohit' are not matched&#xd;
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)&#xd;
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)&#xd;
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)&#xd;
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)&#xd;
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)&#xd;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xd;
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)&#xd;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xd;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xd;
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xd;
+	at KBC-11 TC1_Verify Successful Login.run(KBC-11 TC1_Verify Successful Login:28)&#xd;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xd;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xd;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xd;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xd;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xd;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xd;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xd;
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xd;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xd;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xd;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xd;
+	at TempTestSuite1737631208437.run(TempTestSuite1737631208437.groovy:35)&#xd;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xd;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xd;
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xd;
+</description>
+   <name>KBC-17 KBC-11 TC1_Verify Successful Login</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10033&quot;:[],&quot;customfield_10046&quot;:[],&quot;customfield_10002&quot;:[],&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i0005b:&quot;},&quot;status&quot;:{&quot;id&quot;:10021,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://mohit3021.atlassian.net/&quot;,&quot;statusCategory&quot;:{&quot;id&quot;:2,&quot;key&quot;:&quot;new&quot;,&quot;colorName&quot;:&quot;blue-gray&quot;,&quot;self&quot;:&quot;https://mohit3021.atlassian.net/rest/api/2/statuscategory/2&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;self&quot;:&quot;https://mohit3021.atlassian.net/rest/api/2/status/10021&quot;,&quot;name&quot;:&quot;Backlog&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://mohit3021.atlassian.net/rest/api/2/project/10003&quot;,&quot;key&quot;:&quot;KBC&quot;,&quot;id&quot;:10003,&quot;name&quot;:&quot;Katalon BDD CompanyMP&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;KBC-11 TC1_Verify Successful Login&quot;,&quot;description&quot;:&quot;Test Steps:\r\n1. openBrowser(\&quot;\&quot;)\r\n2. navigateToUrl(\&quot;https://katalon-demo-cura.herokuapp.com/\&quot;)\r\n3. click(findTestObject(\&quot;Object Repository/OR Web/Page_CURA Healthcare Service/a_btn-make-appointment\&quot;))\r\n4. title \u003d getWindowTitle()\r\n5. verifyMatch(title, \&quot;Mohit\&quot;, false)\r\n\r\nError message: Test Cases/JIRA/KBC-11 TC1_Verify Successful Login FAILED.\r\nReason:\r\ncom.kms.katalon.core.exception.StepFailedException: Actual text \u0027CURA Healthcare Service\u0027 and expected text \u0027Mohit\u0027 are not matched\r\n\tat com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)\r\n\tat com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)\r\n\tat com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)\r\n\tat com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\r\n\tat com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:78)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat KBC-11 TC1_Verify Successful Login.run(KBC-11 TC1_Verify Successful Login:28)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)\r\n\tat com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)\r\n\tat TempTestSuite1737631208437.run(TempTestSuite1737631208437.groovy:35)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;mohit3021@gmail.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;mohit kumar&quot;,&quot;accountId&quot;:&quot;557058:2da16742-a0ec-4ecd-9ea6-2b3b3c5c0942&quot;,&quot;self&quot;:&quot;https://mohit3021.atlassian.net/rest/api/2/user?accountId\u003d557058%3A2da16742-a0ec-4ecd-9ea6-2b3b3c5c0942&quot;},&quot;assignee&quot;:{&quot;emailAddress&quot;:&quot;mohit3021@gmail.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;mohit kumar&quot;,&quot;accountId&quot;:&quot;557058:2da16742-a0ec-4ecd-9ea6-2b3b3c5c0942&quot;,&quot;self&quot;:&quot;https://mohit3021.atlassian.net/rest/api/2/user?accountId\u003d557058%3A2da16742-a0ec-4ecd-9ea6-2b3b3c5c0942&quot;},&quot;priority&quot;:{&quot;id&quot;:1,&quot;self&quot;:&quot;https://mohit3021.atlassian.net/rest/api/2/priority/1&quot;,&quot;name&quot;:&quot;Highest&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://mohit3021.atlassian.net/rest/api/2/issue/KBC-17/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://mohit3021.atlassian.net/rest/api/2/issue/10038&quot;,&quot;key&quot;:&quot;KBC-17&quot;,&quot;id&quot;:10038}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0c79b380-2cad-4742-9cb7-55219314796c</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_Extract a value from HTML Response</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>566dda9b-cf20-4883-bb61-3fede6156423</testCaseGuid>
+</TestCaseEntity>

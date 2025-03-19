@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: Secure and User-Friendly Login Experience for Web Application Users
+Description: As a user, I want to access the web application securely and easily by entering my login credentials, so that I can enjoy the application's features and maintain the security of my personal information.
+
+*Acceptance Criteria:*
+
+# The login page should prominently display our application’s logo and branding to ensure users are confident they’re on the correct page.
+# The login form should consist of input fields for username (or email) and password, with clear labels indicating the purpose of each field.
+# Users should have the option to show or hide their password text to mitigate typos when entering their credentials.</description>
+   <name>KBC-20 Secure and User-Friendly Login Experience for Web Application Users</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10033&quot;:[],&quot;customfield_10046&quot;:[],&quot;customfield_10002&quot;:[],&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i0005z:&quot;},&quot;status&quot;:{&quot;id&quot;:10021,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://mohit3021.atlassian.net/&quot;,&quot;statusCategory&quot;:{&quot;id&quot;:2,&quot;key&quot;:&quot;new&quot;,&quot;colorName&quot;:&quot;blue-gray&quot;,&quot;self&quot;:&quot;https://mohit3021.atlassian.net/rest/api/2/statuscategory/2&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;self&quot;:&quot;https://mohit3021.atlassian.net/rest/api/2/status/10021&quot;,&quot;name&quot;:&quot;Backlog&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://mohit3021.atlassian.net/rest/api/2/project/10003&quot;,&quot;key&quot;:&quot;KBC&quot;,&quot;id&quot;:10003,&quot;name&quot;:&quot;Katalon BDD CompanyMP&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;Secure and User-Friendly Login Experience for Web Application Users&quot;,&quot;description&quot;:&quot;As a user, I want to access the web application securely and easily by entering my login credentials, so that I can enjoy the application\u0027s features and maintain the security of my personal information.\n\n*Acceptance Criteria:*\n\n# The login page should prominently display our application’s logo and branding to ensure users are confident they’re on the correct page.\n# The login form should consist of input fields for username (or email) and password, with clear labels indicating the purpose of each field.\n# Users should have the option to show or hide their password text to mitigate typos when entering their credentials.&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;mohit3021@gmail.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;mohit kumar&quot;,&quot;accountId&quot;:&quot;557058:2da16742-a0ec-4ecd-9ea6-2b3b3c5c0942&quot;,&quot;self&quot;:&quot;https://mohit3021.atlassian.net/rest/api/2/user?accountId\u003d557058%3A2da16742-a0ec-4ecd-9ea6-2b3b3c5c0942&quot;},&quot;assignee&quot;:{&quot;emailAddress&quot;:&quot;mohit3021@gmail.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;mohit kumar&quot;,&quot;accountId&quot;:&quot;557058:2da16742-a0ec-4ecd-9ea6-2b3b3c5c0942&quot;,&quot;self&quot;:&quot;https://mohit3021.atlassian.net/rest/api/2/user?accountId\u003d557058%3A2da16742-a0ec-4ecd-9ea6-2b3b3c5c0942&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://mohit3021.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://mohit3021.atlassian.net/rest/api/2/issue/KBC-20/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://mohit3021.atlassian.net/rest/api/2/issue/10072&quot;,&quot;key&quot;:&quot;KBC-20&quot;,&quot;id&quot;:10072}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ec890683-ac73-4cf6-af1b-add7689019c2</testCaseGuid>
+</TestCaseEntity>

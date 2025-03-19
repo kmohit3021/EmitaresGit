@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: TC1_Verify Successful Login
+Description: Test Steps:&#xd;
+1. comment(&quot;Story: Login to CURA system&quot;)&#xd;
+2. comment(&quot;Given that the user has the valid login information&quot;)&#xd;
+3. openBrowser(G_SiteURL)&#xd;
+4. click(findTestObject(&quot;Page_CuraHomepage/btn_MakeAppointment&quot;))&#xd;
+5. setText(findTestObject(&quot;Page_Login/txt_UserName&quot;), Username)&#xd;
+6. setText(findTestObject(&quot;Page_Login/txt_Password&quot;), Password)&#xd;
+7. comment(&quot;When he logins to CURA system&quot;)&#xd;
+8. click(findTestObject(&quot;Page_Login/btn_Login&quot;))&#xd;
+9. comment(&quot;Then he should be able to login successfully&quot;)&#xd;
+10. landingPage = verifyElementPresent(findTestObject(&quot;Page_CuraAppointment/div_Appointment&quot;), G_Timeout)&#xd;
+11. verifyElementNotPresent(findTestObject(&quot;Page_CuraAppointment/div_Appointment&quot;), 2)&#xd;
+12. Video&#xd;
+&#xd;
+Error message: Test Cases/Main Test Cases/TC1_Verify Successful Login FAILED.&#xd;
+Reason:&#xd;
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_CuraAppointment/div_Appointment' is not present&#xd;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xd;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xd;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)&#xd;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:131)&#xd;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:69)&#xd;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xd;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1536)&#xd;
+	at TC1_Verify Successful Login.run(TC1_Verify Successful Login:41)&#xd;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xd;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xd;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xd;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xd;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xd;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xd;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xd;
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xd;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xd;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xd;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xd;
+	at TempTestSuite1723174960307.run(TempTestSuite1723174960307.groovy:35)&#xd;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xd;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xd;
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xd;
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_CuraAppointment/div_Appointment' located by 'By.xpath: //*[@id = 'appointment']' is present after '2' second(s)&#xd;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xd;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)&#xd;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:122)&#xd;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)&#xd;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xd;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xd;
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xd;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xd;
+	... 21 more&#xd;
+</description>
+   <name>KBC-11 TC1_Verify Successful Login</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10033&quot;:[],&quot;customfield_10046&quot;:[],&quot;customfield_10002&quot;:[],&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i0003z:&quot;},&quot;status&quot;:{&quot;id&quot;:10021,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://mohit3021.atlassian.net/&quot;,&quot;statusCategory&quot;:{&quot;id&quot;:2,&quot;key&quot;:&quot;new&quot;,&quot;colorName&quot;:&quot;blue-gray&quot;,&quot;self&quot;:&quot;https://mohit3021.atlassian.net/rest/api/2/statuscategory/2&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;self&quot;:&quot;https://mohit3021.atlassian.net/rest/api/2/status/10021&quot;,&quot;name&quot;:&quot;Backlog&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://mohit3021.atlassian.net/rest/api/2/project/10003&quot;,&quot;key&quot;:&quot;KBC&quot;,&quot;id&quot;:10003,&quot;name&quot;:&quot;Katalon BDD CompanyMP&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;TC1_Verify Successful Login&quot;,&quot;description&quot;:&quot;Test Steps:\r\n1. comment(\&quot;Story: Login to CURA system\&quot;)\r\n2. comment(\&quot;Given that the user has the valid login information\&quot;)\r\n3. openBrowser(G_SiteURL)\r\n4. click(findTestObject(\&quot;Page_CuraHomepage/btn_MakeAppointment\&quot;))\r\n5. setText(findTestObject(\&quot;Page_Login/txt_UserName\&quot;), Username)\r\n6. setText(findTestObject(\&quot;Page_Login/txt_Password\&quot;), Password)\r\n7. comment(\&quot;When he logins to CURA system\&quot;)\r\n8. click(findTestObject(\&quot;Page_Login/btn_Login\&quot;))\r\n9. comment(\&quot;Then he should be able to login successfully\&quot;)\r\n10. landingPage \u003d verifyElementPresent(findTestObject(\&quot;Page_CuraAppointment/div_Appointment\&quot;), G_Timeout)\r\n11. verifyElementNotPresent(findTestObject(\&quot;Page_CuraAppointment/div_Appointment\&quot;), 2)\r\n12. Video\r\n\r\nError message: Test Cases/Main Test Cases/TC1_Verify Successful Login FAILED.\r\nReason:\r\ncom.kms.katalon.core.exception.StepFailedException: Unable to verify object \u0027Object Repository/Page_CuraAppointment/div_Appointment\u0027 is not present\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:131)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:69)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1536)\r\n\tat TC1_Verify Successful Login.run(TC1_Verify Successful Login:41)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)\r\n\tat com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)\r\n\tat TempTestSuite1723174960307.run(TempTestSuite1723174960307.groovy:35)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\nCaused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: \u0027Object Repository/Page_CuraAppointment/div_Appointment\u0027 located by \u0027By.xpath: //*[@id \u003d \u0027appointment\u0027]\u0027 is present after \u00272\u0027 second(s)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:122)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\t... 21 more\r\n&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;mohit3021@gmail.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;mohit kumar&quot;,&quot;accountId&quot;:&quot;557058:2da16742-a0ec-4ecd-9ea6-2b3b3c5c0942&quot;,&quot;self&quot;:&quot;https://mohit3021.atlassian.net/rest/api/2/user?accountId\u003d557058%3A2da16742-a0ec-4ecd-9ea6-2b3b3c5c0942&quot;},&quot;assignee&quot;:{&quot;emailAddress&quot;:&quot;mohit3021@gmail.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;mohit kumar&quot;,&quot;accountId&quot;:&quot;557058:2da16742-a0ec-4ecd-9ea6-2b3b3c5c0942&quot;,&quot;self&quot;:&quot;https://mohit3021.atlassian.net/rest/api/2/user?accountId\u003d557058%3A2da16742-a0ec-4ecd-9ea6-2b3b3c5c0942&quot;},&quot;priority&quot;:{&quot;id&quot;:1,&quot;self&quot;:&quot;https://mohit3021.atlassian.net/rest/api/2/priority/1&quot;,&quot;name&quot;:&quot;Highest&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://mohit3021.atlassian.net/rest/api/2/issue/KBC-11/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://mohit3021.atlassian.net/rest/api/2/issue/10028&quot;,&quot;key&quot;:&quot;KBC-11&quot;,&quot;id&quot;:10028}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>687f200f-2c61-4209-a25b-cbc81cb448b9</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: Automate the user registration process for a mobile app by creating all required test cases
+Description: </description>
+   <name>KBC-13 Automate the user registration process for a mobile app by creating all required test cases</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10033&quot;:[],&quot;customfield_10046&quot;:[],&quot;customfield_10002&quot;:[],&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i0004f:&quot;},&quot;status&quot;:{&quot;id&quot;:10021,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://mohit3021.atlassian.net/&quot;,&quot;statusCategory&quot;:{&quot;id&quot;:2,&quot;key&quot;:&quot;new&quot;,&quot;colorName&quot;:&quot;blue-gray&quot;,&quot;self&quot;:&quot;https://mohit3021.atlassian.net/rest/api/2/statuscategory/2&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;self&quot;:&quot;https://mohit3021.atlassian.net/rest/api/2/status/10021&quot;,&quot;name&quot;:&quot;Backlog&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://mohit3021.atlassian.net/rest/api/2/project/10003&quot;,&quot;key&quot;:&quot;KBC&quot;,&quot;id&quot;:10003,&quot;name&quot;:&quot;Katalon BDD CompanyMP&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;Automate the user registration process for a mobile app by creating all required test cases&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;mohit3021@gmail.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;mohit kumar&quot;,&quot;accountId&quot;:&quot;557058:2da16742-a0ec-4ecd-9ea6-2b3b3c5c0942&quot;,&quot;self&quot;:&quot;https://mohit3021.atlassian.net/rest/api/2/user?accountId\u003d557058%3A2da16742-a0ec-4ecd-9ea6-2b3b3c5c0942&quot;},&quot;assignee&quot;:{&quot;emailAddress&quot;:&quot;mohit3021@gmail.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;mohit kumar&quot;,&quot;accountId&quot;:&quot;557058:2da16742-a0ec-4ecd-9ea6-2b3b3c5c0942&quot;,&quot;self&quot;:&quot;https://mohit3021.atlassian.net/rest/api/2/user?accountId\u003d557058%3A2da16742-a0ec-4ecd-9ea6-2b3b3c5c0942&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://mohit3021.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://mohit3021.atlassian.net/rest/api/2/issue/KBC-13/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://mohit3021.atlassian.net/rest/api/2/issue/10032&quot;,&quot;key&quot;:&quot;KBC-13&quot;,&quot;id&quot;:10032}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>20d71efe-dfc7-4205-9585-2d2fb1e081db</testCaseGuid>
+</TestCaseEntity>
