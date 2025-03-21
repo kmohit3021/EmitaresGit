@@ -29,7 +29,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/OR Web/Default/Page_CU
 
 WebUI.click(findTestObject('null'), FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('Object Repository/OR Web/Default/Page_CURA Healthcare Service/input_Username_1'), GlobalVariable.EMAIL, 
+WebUI.setText(findTestObject('Object Repository/OR Web/Default/Page_CURA Healthcare Service/input_Username_1'), 'John Doe', 
     FailureHandling.OPTIONAL)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/OR Web/Default/Page_CURA Healthcare Service/input_Password_1'), 

@@ -27,9 +27,11 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/OR Web/Default/Pag
 WebUI.verifyElementText(findTestObject('Object Repository/OR Web/Default/Page_CURA Healthcare Service/h3_We Care About Your Health'), 
     'We Care About Your Health')
 
+CustomKeywords.'com.katalon.Accessibility.checkAccessibility'()
+
 WebUI.click(findTestObject('null'), FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('Object Repository/OR Web/Default/Page_CURA Healthcare Service/input_Username_1'), GlobalVariable.EMAIL, 
+WebUI.setText(findTestObject('Object Repository/OR Web/Default/Page_CURA Healthcare Service/input_Username_1'), 'John Doe', 
     FailureHandling.OPTIONAL)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/OR Web/Default/Page_CURA Healthcare Service/input_Password_1'), 
@@ -50,6 +52,8 @@ WebUI.click(findTestObject('Object Repository/OR Web/Default/Page_CURA Healthcar
 
 WebUI.setText(findTestObject('Object Repository/OR Web/Default/Page_CURA Healthcare Service/textarea_Comment'), 'Test Demo')
 
+CustomKeywords.'com.katalon.Accessibility.checkAccessibility'()
+
 WebUI.click(findTestObject('Object Repository/OR Web/Default/Page_CURA Healthcare Service/button_btn-book-appointment'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/OR Web/Default/Page_CURA Healthcare Service/h2_Appointment Confirmation'), 
@@ -58,7 +62,8 @@ WebUI.verifyElementText(findTestObject('Object Repository/OR Web/Default/Page_CU
 WebUI.verifyElementText(findTestObject('Object Repository/OR Web/Default/Page_CURA Healthcare Service/p_Please be informed that your appointment has b'), 
     'Please be informed that your appointment has been booked as following:')
 
+CustomKeywords.'com.katalon.Accessibility.checkAccessibility'()
+
 WebUI.click(findTestObject('Object Repository/OR Web/Default/Page_CURA Healthcare Service/a_Go to Homepage'))
 
 WebUI.closeBrowser()
-

@@ -37,6 +37,10 @@ WebUI.setEncryptedText(findTestObject('Object Repository/OR Web/Default/Page_CUR
 
 WebUI.click(findTestObject('Object Repository/OR Web/Default/Page_CURA Healthcare Service/button_btn-login'))
 
+def title = WebUI.getWindowTitle()
+
+WebUI.verifyMatch(title, 'HealthCare', false)
+
 WebUI.selectOptionByValue(findTestObject('Object Repository/OR Web/Default/Page_CURA Healthcare Service/select_Facility'), 
     'Seoul CURA Healthcare Center', true)
 
@@ -61,4 +65,3 @@ WebUI.verifyElementText(findTestObject('Object Repository/OR Web/Default/Page_CU
 WebUI.click(findTestObject('Object Repository/OR Web/Default/Page_CURA Healthcare Service/a_Go to Homepage'))
 
 WebUI.closeBrowser()
-
