@@ -32,11 +32,4 @@
       <testCaseId>Test Cases/Web/TC003_CURA Healthcare Service - Failure</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
-   <testCaseLink>
-      <guid>40c28ca9-010f-49db-a982-5840dcfc62fe</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Web/TC004_Web Accessability Test</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
 </TestSuiteEntity>
