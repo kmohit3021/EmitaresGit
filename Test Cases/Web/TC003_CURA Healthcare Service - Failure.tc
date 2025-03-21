@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC003_CURA Healthcare Service - Failure</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d8d713cd-db25-4ad6-9288-ce212cc677fe</testCaseGuid>
+</TestCaseEntity>

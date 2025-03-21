@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>List Users - Status Code Validation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5fd70dfd-6c06-4f22-93f0-a5b84fb0e9d7</testCaseGuid>
+</TestCaseEntity>

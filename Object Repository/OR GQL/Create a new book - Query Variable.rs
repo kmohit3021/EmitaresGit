@@ -5,7 +5,9 @@
    <tag></tag>
    <elementGuidId>06b139b5-82a2-4ce9-aea9-71032051779b</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <autoUpdateContent>true</autoUpdateContent>
    <connectionTimeout>0</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
@@ -28,6 +30,7 @@
    <katalonVersion>8.3.5</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
+   <path></path>
    <restRequestMethod>POST</restRequestMethod>
    <restUrl>https://katalon-sample-graphql-aut.herokuapp.com/graphql</restUrl>
    <serviceType>RESTful</serviceType>
@@ -82,6 +85,9 @@ ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 
 WS.verifyElementPropertyValue(response, 'data.country.capital', &quot;Hanoi&quot;)
 WS.verifyElementPropertyValue(response, 'data.country.name', &quot;Vietnam&quot;)
-WS.verifyElementPropertyValue(response, 'data.country.native', &quot;Việt Nam&quot;)</verificationScript>
+WS.verifyElementPropertyValue(response, 'data.country.native', &quot;Việt Nam&quot;)
+WS.verifyElementPropertyValue(response, 'data.newBook.id', &quot;3&quot;)
+WS.verifyElementPropertyValue(response, 'data.newBook.isbn', &quot;ISBN003&quot;)
+WS.verifyElementPropertyValue(response, 'data.newBook.title', &quot;Mohit003&quot;)</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

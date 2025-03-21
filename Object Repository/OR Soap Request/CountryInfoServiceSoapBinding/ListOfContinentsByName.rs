@@ -5,8 +5,10 @@
    <tag></tag>
    <elementGuidId>445f64be-4565-4cab-bc6c-8aef104ea4e0</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <connectionTimeout>-1</connectionTimeout>
+   <autoUpdateContent>true</autoUpdateContent>
+   <connectionTimeout>0</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent></httpBodyContent>
@@ -17,9 +19,11 @@
       <name>Content-Type</name>
       <type>Main</type>
       <value>text/xml; charset=utf-8</value>
+      <webElementGuid>c4737d48-488c-45c7-b777-1ae473cf34f7</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.0.0</katalonVersion>
-   <maxResponseSize>-1</maxResponseSize>
+   <maxResponseSize>0</maxResponseSize>
+   <path></path>
    <restRequestMethod></restRequestMethod>
    <restUrl></restUrl>
    <serviceType>SOAP</serviceType>
@@ -33,7 +37,23 @@
    <soapRequestMethod>SOAP</soapRequestMethod>
    <soapServiceEndpoint>http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso</soapServiceEndpoint>
    <soapServiceFunction>ListOfContinentsByName</soapServiceFunction>
-   <socketTimeout>-1</socketTimeout>
+   <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>false</useServiceInfoFromWsdl>
+   <verificationScript>import static org.assertj.core.api.Assertions.*
+
+import com.kms.katalon.core.testobject.RequestObject
+import com.kms.katalon.core.testobject.ResponseObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webservice.verification.WSResponseManager
+
+import groovy.json.JsonSlurper
+import internal.GlobalVariable as GlobalVariable
+
+RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
+
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
+
+WS.verifyElementText(response, 'ListOfContinentsByNameResponse.ListOfContinentsByNameResult.tContinent[0].sCode', 'AF')
+WS.verifyElementText(response, 'ListOfContinentsByNameResponse.ListOfContinentsByNameResult.tContinent[0].sName', 'Africa')</verificationScript>
    <wsdlAddress>http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?WSDL</wsdlAddress>
 </WebServiceRequestEntity>

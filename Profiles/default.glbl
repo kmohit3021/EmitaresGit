@@ -34,4 +34,14 @@
       <initValue>'https://sample-web-service-aut.herokuapp.com'</initValue>
       <name>SCHEMA_URL</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://reqres.in'</initValue>
+      <name>MOHIT_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>EMAIL</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

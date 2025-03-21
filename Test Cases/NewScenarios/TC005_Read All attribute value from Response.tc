@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC005_Read All attribute value from Response</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f12e6bf7-76a8-40dd-a3e5-a5c9fd2bab3f</testCaseGuid>
+</TestCaseEntity>

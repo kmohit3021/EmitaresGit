@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC003_Read Value from the JSON file</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d35e5108-798d-4668-be6f-23d5fcbfe2c2</testCaseGuid>
+</TestCaseEntity>

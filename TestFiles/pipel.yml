@@ -1,0 +1,26 @@
+trigger:
+  - master
+pool:
+  vmImage: 'windows-latest'
+  
+variables:
+  workingDirectory: '$(System.DefaultWorkingDirectory)'
+
+schedules:
+  displayName: 'Daily Midnight Run'
+  branches:
+    include:
+    - master
+  always: true  # This ensures the pipeline runs even if there are no code changes
+  
+steps:
+- task: katalonTask@1
+  inputs:
+    version: '9.7.2'
+    executeArgs: '-browserType="Chrome (headless)" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/Regression Suite/TS Cure Health Care" -apiKey="dbab905c-0ea1-4033-a517-0047264a104d" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true'
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(workingDirectory)'
+    ArtifactName: 'Katalon'
+    displayName: 'Publish Build Artifacts'

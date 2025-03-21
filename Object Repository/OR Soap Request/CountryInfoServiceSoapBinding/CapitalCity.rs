@@ -19,7 +19,7 @@
       <name>Content-Type</name>
       <type>Main</type>
       <value>text/xml; charset=utf-8</value>
-      <webElementGuid>7c19a532-5889-4560-b033-744c369a8536</webElementGuid>
+      <webElementGuid>16b40bc7-335f-4b67-a831-4934ea28c095</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.0.0</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
@@ -54,6 +54,6 @@ RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 
 
-WS.verifyElementText(response, 'ListOfContinentsByNameResponse.ListOfContinentsByNameResult.tContinent[0].sName', 'Africa')</verificationScript>
+</verificationScript>
    <wsdlAddress>http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?WSDL</wsdlAddress>
 </WebServiceRequestEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_Web CURA Healthcare Service</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>852c5c28-89b3-430b-a6cf-81406e33bf5e</testCaseGuid>
+</TestCaseEntity>

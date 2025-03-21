@@ -32,6 +32,3 @@ refreshToken = WS.getElementPropertyValue(response, 'refreshToken')
 println("Refresh Token: "+refreshToken)
 
 GlobalVariable.REFRESH_TOKEN=refreshToken
-
-
-
