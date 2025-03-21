@@ -27,7 +27,7 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/OR Web/Default/Pag
 WebUI.verifyElementText(findTestObject('Object Repository/OR Web/Default/Page_CURA Healthcare Service/h3_We Care About Your Health'), 
     'We Care About Your Health')
 
-WebUI.click(findTestObject('null'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('OR Web/Default/Page_CURA Healthcare Service/a_btn-make-appointment'), FailureHandling.OPTIONAL)
 
 WebUI.setText(findTestObject('Object Repository/OR Web/Default/Page_CURA Healthcare Service/input_Username_1'), GlobalVariable.EMAIL, 
     FailureHandling.OPTIONAL)
@@ -65,3 +65,4 @@ WebUI.verifyElementText(findTestObject('Object Repository/OR Web/Default/Page_CU
 WebUI.click(findTestObject('Object Repository/OR Web/Default/Page_CURA Healthcare Service/a_Go to Homepage'))
 
 WebUI.closeBrowser()
+

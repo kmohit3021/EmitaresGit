@@ -29,7 +29,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/OR Web/Default/Page_CU
 
 CustomKeywords.'com.katalon.Accessibility.checkAccessibility'()
 
-WebUI.click(findTestObject('null'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('OR Web/Default/Page_CURA Healthcare Service/a_btn-make-appointment'), FailureHandling.OPTIONAL)
 
 WebUI.setText(findTestObject('Object Repository/OR Web/Default/Page_CURA Healthcare Service/input_Username_1'), 'John Doe', 
     FailureHandling.OPTIONAL)
@@ -67,3 +67,4 @@ CustomKeywords.'com.katalon.Accessibility.checkAccessibility'()
 WebUI.click(findTestObject('Object Repository/OR Web/Default/Page_CURA Healthcare Service/a_Go to Homepage'))
 
 WebUI.closeBrowser()
+
